@@ -36,6 +36,7 @@ div.capa > p{
     font-family: var(--fonte-padrao);
     font-size: 20px;
     padding-top: 20px;
+    background-size: cover;
 }
 
 div.quemsomos{
@@ -86,6 +87,8 @@ p{
 .quemsomos{
     background-image: url(../imagens/Background-01.png);
     margin: auto;
+    height: 98vh;
+    background-size: cover;
 }
 .container1{
     display: grid;
@@ -93,11 +96,13 @@ p{
 }
 
 .coluna{
+
   border: 1px ;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  margin: auto;
+  margin: auto;background-position: left center;
+  
 }
 .container{
   display: grid;
